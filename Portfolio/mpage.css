@@ -1,0 +1,121 @@
+body
+{
+    background-image: linear-gradient(to right,black,#1b1b1b);
+    font-family: monospace;
+}
+
+h1.name
+{
+    color: white;
+    font-size: 80px;
+    position:absolute ;
+    top:25%;
+    left: 8%;
+    line-height: -10px;
+    font-family: monospace;
+    font-weight: bold;
+}
+h1.text
+{
+    color: rgb(197, 195, 195);
+    font-size: 80px;
+    position:absolute ;
+    bottom: 50%;
+    left: 8%;
+    line-height: 10px;
+    
+    font-weight: bold;
+}
+h1.web
+{
+    color: rgb(0, 237, 20);
+    font-size: 80px;
+    position:absolute ;
+    bottom: 49%;
+    left: 28%;
+    line-height: 10px;
+    text-shadow: 0 0 20px rgb(0, 237, 20);
+    font-weight: bold;
+}
+a
+{
+color: white;
+text-decoration: none;
+}
+.link1
+{
+    background-color: none;
+  color: white;
+  border: 2px solid white;
+  padding: 5px 10px;
+  text-align: center;
+  display: inline-block; 
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  width: 150px;
+  position: relative;
+  border-radius: 15px;
+  justify-content: center;
+display: flex;
+
+ 
+}
+
+.link1:hover
+ {
+    background-color: white;
+    color: black;
+}
+.Img_cont1
+  {
+    background-color: white;
+   
+    position:relative;
+    bottom: -17%;
+    left: 8%;
+    background-image: url(zeus\ \(2\).jpg);
+    object-fit: contain;
+  }
+  .im
+  {
+    width: 25%;
+    height: 720px;
+    background-color: white;
+    position:relative;
+    background-image: url(zeus\ \(2\).jpg);
+    left: 65%;
+  }
+
+.container
+{
+
+    height:50px;
+    width: 30%;
+   margin: 10px;
+    position: absolute;
+    top: 52%;
+    left: 8%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook
+ {
+    background: #3B5998;
+    color: white;
+}
